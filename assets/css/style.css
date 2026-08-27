@@ -1,8 +1,23 @@
-body {
-    background-color:gray
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.text  {
-    font-size: 100px;
-    color:blue;
-    text-align: center;
+body {
+     background-color:rgba(185, 6, 240, 0.589);
+     color: rgba(212, 16, 16, 0.658);
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     line-height: 1.5;
+}
+header{
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 8%;
+      background-color:rgba(0, 247, 255, 0.993);
+      border: 2px solid rgba(0, 0, 0, 0.623);
+      position: sticky;
+      top: 0;
+      z-index: 10;
 }
