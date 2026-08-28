@@ -1,13 +1,13 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 20px;
     box-sizing: border-box;
 }
 body {
-     background-color:rgba(185, 6, 240, 0.589);
-     color: rgba(212, 16, 16, 0.658);
+     background-color:rgba(14, 8, 68, 0.541);
+     color: rgba(124, 2, 12, 0.897);
      font-family: Verdana, Geneva, Tahoma, sans-serif;
-     line-height: 1.5;
+     line-height: 4.5;
 }
 header{
       height: 70px;
@@ -15,9 +15,30 @@ header{
       align-items: center;
       justify-content: space-between;
       padding: 0 8%;
-      background-color:rgba(0, 247, 255, 0.993);
-      border: 2px solid rgba(0, 0, 0, 0.623);
+      background-color:rgba(243, 228, 13, 0.534);
+      border: 10px solid rgba(255, 254, 254, 0.979);
       position: sticky;
-      top: 0;
+      top: 80px;
       z-index: 10;
+     border-radius: 20px;
+}
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+.logo::first-letter {
+    color: red;
+}
+.menu {
+    display: flex;
+    gap: 30px;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.menu a:hover {
+    color: white;
+    font-size: 100px;
 }
