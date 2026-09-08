@@ -133,3 +133,16 @@ header {
 .titulo a:hover {
     color: white;
 }
+.noticia-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr ));
+    gap: 25px;
+}
+
+.noticia {
+    background-color:rgba(181, 8, 8, 0.486);
+    border: 1px solid white;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: transform 0.2s
+}
